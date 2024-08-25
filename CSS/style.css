@@ -1,0 +1,292 @@
+/* Navigation Bar */
+
+
+.flex {
+    display: flex;
+}
+
+.mt {
+    margin-top: 40px ;
+}
+
+.special {
+    color: orangered;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 145px;
+    margin-right: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Background Part */
+
+.background {
+    background-image: url('../image/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    text-align: center;
+    position: center;
+    height: 500px;
+    width: 1200px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 150px;
+}
+
+.bg-header {
+    padding-top: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+.p-tag {
+    color: white;
+}
+
+.btn {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom:7px;
+    padding-right: 20px;
+
+}
+
+.special-btn {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom:7px;
+    padding-right: 20px;
+
+}
+
+/* Third Part */
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.Popular {
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.gray {
+    color: #474747;
+    
+}
+
+
+/* Fourth Part */
+
+.fourth {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.image-1 {
+    background-image: url('../image/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    position: left;
+    height:500px;
+    width:800px;
+    margin-left:130px ;
+}
+
+.image-2 {
+    background-image: url('../image/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    position: right;
+    height:500px;
+    width:800px ;
+    margin-right: 90px;
+}
+
+.Place-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.image-3{
+    background-image: url('../image/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    height:400px;
+    width:400px;
+    margin-left: 120px;
+}
+
+.image-4{
+    background-image: url('../image/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    height:400px;
+    width:500px;
+    
+}
+.image-5{
+    background-image:url('../image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    height:400px;
+    width: 400px;
+    
+}
+
+.Place-2 {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.image-6 {
+    background-image: url('../image/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    position: left;
+    height:500px;
+    width:1000px;
+    margin-left:130px ;
+}
+
+.image-7 {
+    background-image: url('../image/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    position: right;
+    height:500px;
+    width:1200px ;
+    margin-right: 120px;
+}
+
+.Place-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+
+/* Fifth Part */
+
+.fifth {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-1 {
+    border: 5px;
+    background-color:beige;
+    border-radius: 5px;
+    padding:30px;
+}
+.card-2 {
+    border: 5px;
+    background-color:beige;
+    border-radius: 5px;
+    padding:30px;
+}
+
+.row {
+    display:flex;
+    gap:50px;
+    margin-top:100px;
+    margin-left: 140px;
+    margin-right:140px;
+
+}
+
+.card-3 {
+    border: 5px;
+    background-color:beige;
+    border-radius: 5px;
+    padding:30px;
+    margin-top:30px;
+    margin-left: 400px;
+    margin-right:400px;
+
+}
+
+
+/* Sixth Part */
+
+.bg{
+    height:400px;
+    width:1240px ;
+    background-image: url('../image/Group\ 39.png');
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:fixed ;
+   background-position:center ;
+   display: flex;
+   justify-content: end;align-items: center;
+   margin-left: 130px;
+   margin-right: 130px;
+   margin-bottom:50px;
+}
+
+.p{
+    margin-bottom: 50px;
+}
+  
+
+.glass-container {
+    height: 300px; 
+    width: 300px; 
+    padding: 30px 50px;
+    border-radius: 50px;
+    background-color:rgba(255, 252, 252, 0.027);
+    backdrop-filter: blur(8px);
+    border-top:1px solid rgba(255, 255, 255, 0.4) ;
+    border-left:1px solid rgba(255, 255, 255, 0.3) ;
+    box-shadow:3px 3px 3px rgba (0,0,0.0.089);
+
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin:60px ;
+}
+
+.bg-1{
+    height:400px;
+    width:1240px ;
+    background-image: url('../image/Group\ 39.png');
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:fixed ;
+   background-position:center ;
+   display: flex;
+   justify-content: start;align-items: center;
+   margin-left: 130px;
+   margin-right: 130px;
+   margin-bottom: 50px;
+}
