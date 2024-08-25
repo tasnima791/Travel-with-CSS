@@ -317,7 +317,19 @@ nav li {
     padding: 100px 80px;
     text-align: center;
     background-color: gainsboro;
+    gap: 20px;
 }
-.last-h1{
+
+.last-flex{
+    display: flex;
+    margin-top: 100px;
+   
+
+}
+.tomato {
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 15px;
+    height: 320px;
 
 }
